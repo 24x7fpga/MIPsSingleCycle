@@ -1,0 +1,4 @@
+20020004 // addi r2, r0, 4
+2003000c // addi r3, r0, 12
+00430824 // and  r1, r2, r3 
+acc10000 // sw   r6, r1, 0 => addr 6 will hold the result
